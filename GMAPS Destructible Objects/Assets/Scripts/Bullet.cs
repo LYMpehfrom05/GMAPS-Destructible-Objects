@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Box")
+        {
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag == "Wall")
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -354,6 +354,8 @@
 -analyzer:"D:/Unity/2022.3.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Box.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/Camera.cs"
+"Assets/Scripts/CameraShoot.cs"
 "Assets/Scripts/PlayerShoot.cs"
 "Assets/Scripts/Wall.cs"
 -langversion:9.0
